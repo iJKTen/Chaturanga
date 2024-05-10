@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="relive your chess mistakes" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chess board v1</title>
+  <script src="/public/js/main.js" async></script>
+  <link rel="stylesheet" href="/public/css/main.css" />
+  <link rel="preload" fetchpriority="high" as="image" href="/public/images/board.png" type="image/png" />
+</head>
+
+<body>
+  <template id="board-template">
+    <link rel="stylesheet" href="/public/css/board.css" />
+    <div class="board"></div>
+  </template>
+  <chess-board class="board" fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"></chess-board>
+</body>
+
+</html>

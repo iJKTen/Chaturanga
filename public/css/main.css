@@ -1,0 +1,11 @@
+.board {
+  background-image: url("/public/images/board.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  contain: layout;
+  width: 720px;
+  height: 720px;
+  display: block;
+}
+
